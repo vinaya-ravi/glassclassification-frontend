@@ -1,0 +1,125 @@
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.td {
+  display: table-cell;
+}
+
+/* src/components/SingleGlassImageUpload.css */
+
+.upload-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* src/components/SingleGlassImageUpload.css */
+
+.upload-input {
+  cursor: pointer;
+  padding: 12px 25px;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.upload-input:hover, .upload-input:focus {
+  background-color: #45a049; /* Darker green */
+  transform: translateY(-2px); /* Slight raise */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.upload-input:hover {
+  background-color: #0056b3;
+}
+
+.uploaded-image {
+  max-width: 800px;
+  max-height: 800px;
+  margin-top: 20px;
+  margin-left: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.classification-result {
+  margin-top: 20px;
+  margin-left: 0%;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* src/components/TextClassificationForm.css */
+
+.text-classification-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.text-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  min-height: 100px;
+  resize: vertical;
+}
+
+.classify-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.classify-button:hover {
+  background-color: #0056b3;
+}
+
+.result-container {
+  text-align: left;
+  margin-top: 20px;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.submitted-text {
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.key-characteristics {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #fff;
+}
