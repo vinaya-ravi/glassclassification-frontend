@@ -1,0 +1,12 @@
+# Exclude system files
+.DS_Store
+
+# Exclude build artifacts
+build/
+
+# Exclude node modules
+node_modules/
+
+# Exclude lock files if desired
+package-lock.json
+yarn.lock
